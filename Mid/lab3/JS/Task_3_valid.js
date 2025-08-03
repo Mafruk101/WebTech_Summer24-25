@@ -1,4 +1,5 @@
 
+function filledInfo(){
     var fname =document.getElementById("fname").value;
     var lname =document.getElementById("lname").value;
     var address =document.getElementById("address").value;
@@ -7,7 +8,7 @@
     var email =document.getElementById("email").value;
     var createPassword =document.getElementById("createPassword").value;
     var confirmPassword =document.getElementById("confirmPassword").value;
-function filledInfo(){
+
     if(fname==""|| lname==""||address==""||city==""||phone==""||email==""||createPassword==""||confirmPassword==""){
         alert("please fill all the information");
         return false;
@@ -17,6 +18,7 @@ function filledInfo(){
         alert("create and confirm password not matched");
         return false;
     }
+    return true;
 
 }
 function reset(){
