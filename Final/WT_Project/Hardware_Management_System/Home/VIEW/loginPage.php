@@ -31,7 +31,7 @@
                 <input type="password" id="password" name="password" placeholder="password">
                 <span style="color:red; font-size:25px"><?php echo $passwordError ?></span>
                 <br><br><br>
-                <button type="submit">Sign in</button>
+                <button type="submit">Submit</button>
             </form>
             <br>
             <a href="">Forgot password?</a> <br>
